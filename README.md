@@ -9,7 +9,7 @@
 The **Python Encryption Toolkit** is an open-source Python application that allows users to **encrypt and decrypt messages** using modern and classical algorithms.  
 It comes with an **interactive GUI (Tkinter)** and supports **both English and Arabic**, making it a perfect learning and development tool.  
 
-**Python Encryption Toolkit** هو تطبيق مشفَّر ومفتوح المصدر بلغة بايثون، يتيح لك تشفير وفك تشفير الرسائل باستخدام مجموعة من الخوارزميات الحديثة والكلاسيكية.  
+**Python Encryption Toolkit** هو مشروع  تشفير  بلغة بايثون، يتيح لك تشفير وفك تشفير الرسائل باستخدام مجموعة من الخوارزميات الحديثة والكلاسيكية 
 البرنامج مزود بواجهة رسومية تفاعلية باستخدام مكتبة **Tkinter**، ويدعم **اللغتين العربية والإنجليزية**.
 
 ---
