@@ -1,24 +1,33 @@
 # Python Encryption Toolkit | برنامج تشفير بايثون
 
-![Main GUI](images/main_gui.png)
+![واجهة البرنامج الرئيسية](images/main_gui.png)
 
 ---
 
-## English Version
+## نظرة عامة
+**برنامج تشفير بايثون** هو تطبيق يعتمد على لغة بايثون يتيح للمستخدمين تشفير وفك تشفير الرسائل باستخدام عدة خوارزميات. يدعم البرنامج خوارزميات RSA، RC4، والخوارزميات الكلاسيكية مثل الإضافة (Caesar)، الضرب (Multiplicative)، والخوارزمية بدون مفتاح (Keyless/Zigzag). البرنامج سهل الاستخدام ويدعم الرسائل باللغتين العربية والإنجليزية.
 
-### Overview
-The **Python Encryption Toolkit** is a Python-based application that allows users to encrypt and decrypt messages using multiple algorithms. It supports RSA, RC4, and classic encryption methods like Additive (Caesar), Multiplicative, and Keyless (Railway/Zigzag). The program is user-friendly and supports both English and Arabic messages.
+---
 
-### Features
-- **RSA Encryption**: Generate keys, encrypt, and decrypt messages.
-- **RC4 Encryption**: Symmetric key encryption.
-- **Classic Algorithms**: Additive (Caesar), Multiplicative, Keyless (Railway/Zigzag).
-- **Multi-language support**: Encrypt messages in Arabic and English.
-- **User-friendly GUI**: Developed using Python Tkinter.
-- **Reset and Clear Functions**: Easily reset input fields and outputs.
-- **Future Feature**: Load images for encryption.
+## المميزات
+- **تشفير RSA**: إنشاء المفاتيح، التشفير، وفك التشفير.  
+  ![واجهة RSA](images/RSA_interface.png)
 
-### Installation & Usage
-1. Clone the repository:
+- **تشفير RC4**: تشفير بالمفتاح المتماثل.  
+  ![واجهة RC4](images/rc4_interface.png)
+
+- **الخوارزميات الكلاسيكية**: الإضافة (Caesar)، الضرب (Multiplicative)، والخوارزمية بدون مفتاح (Railway/Zigzag).  
+  ![الخوارزميات الكلاسيكية](images/classic_algorithms.png)
+
+- **واجهة مستخدم سهلة**: تم تطويرها باستخدام Tkinter.  
+- **دعم متعدد اللغات**: تشفير الرسائل بالعربية والإنجليزية.  
+- **وظائف إعادة التعيين والمسح**: إعادة تعيين الحقول وإفراغ المخرجات بسهولة.  
+- **ميزة مستقبلية**: تشفير الصور.
+
+---
+
+## التثبيت والاستخدام
+1. استنساخ المستودع:
 ```bash
-
+git clone https://github.com/abdulkaree4m/project-python-encryption.git
+cd project-python-encryption
