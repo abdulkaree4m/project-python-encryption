@@ -4,39 +4,57 @@
 
 ---
 
-## 📌 نظرة عامة
+## 📌 Overview | نظرة عامة
 
-**Python Encryption Toolkit** هو تطبيق مشفَّر ومفتوح المصدر بلغة بايثون، يتيح لك تشفير وفك تشفير الرسائل باستخدام مجموعة من الخوارزميات الحديثة والكلاسيكية.
+The **Python Encryption Toolkit** is an open-source Python application that allows users to **encrypt and decrypt messages** using modern and classical algorithms.  
+It comes with an **interactive GUI (Tkinter)** and supports **both English and Arabic**, making it a perfect learning and development tool.  
 
-البرنامج مزود بواجهة رسومية تفاعلية (GUI) باستخدام مكتبة **Tkinter**، ويدعم **اللغتين العربية والإنجليزية**، مما يجعله أداة مثالية للمتعلمين والمطورين المهتمين بعالم التشفير.
-
----
-
-## 🚀 المميزات
-
-- 🔐 **تشفير RSA** – إنشاء المفاتيح العامة والخاصة وتبادلها.
-- 🔁 **تشفير RC4** – تشفير سهل وسريع باستخدام مفتاح متماثل.
-- 🏛️ **خوارزميات كلاسيكية** – Caesar، Multiplicative، Zigzag.
-- 🖥️ **واجهة مستخدم رسومية** – أنيقة وسهلة التعامل باستخدام Tkinter.
-- 🌍 **دعم كامل للعربية والإنجليزية**.
-- ♻️ **خيارات متقدمة** – مثل إعادة التهيئة، مسح الحقول.
-- 🖼️ **قريبًا**: دعم تشفير الصور.
+**Python Encryption Toolkit** هو تطبيق مشفَّر ومفتوح المصدر بلغة بايثون، يتيح لك تشفير وفك تشفير الرسائل باستخدام مجموعة من الخوارزميات الحديثة والكلاسيكية.  
+البرنامج مزود بواجهة رسومية تفاعلية باستخدام مكتبة **Tkinter**، ويدعم **اللغتين العربية والإنجليزية**.
 
 ---
 
-## 🧠 الخوارزميات المدعومة
+## 🚀 Features | المميزات
 
-| الخوارزمية     | النوع         | وصف سريع                                  |
-|----------------|----------------|---------------------------------------------|
-| RSA            | غير متماثلة    | تعتمد على مفتاح عام وخاص لتأمين التواصل.   |
-| RC4            | متماثلة        | خوارزمية تيار بسيطة وسريعة.                |
-| Caesar         | تقليدية        | إزاحة كل حرف بعدد معين من الأحرف.           |
-| Multiplicative | تقليدية        | تشفير يعتمد على الضرب داخل المودولو.       |
-| Zigzag         | بدون مفتاح     | إعادة ترتيب الحروف بنمط سكة حديدية.       |
+- 🔐 **RSA Encryption** – Generate and exchange public/private keys.  
+- 🔁 **RC4 Encryption** – Fast symmetric key encryption.  
+- 🏛️ **Classical Algorithms** – Caesar, Multiplicative, Zigzag.  
+- 🖥️ **Graphical User Interface (Tkinter)** – Elegant and user-friendly.  
+- 🌍 **Full Arabic & English support**.  
+- ♻️ **Extra Options** – Reset, clear fields, reinitialize.  
+- 🖼️ **Coming Soon**: Image encryption support.  
 
 ---
 
-## 📦 التثبيت والتشغيل
+## 🧠 Supported Algorithms | الخوارزميات المدعومة
+
+| Algorithm       | Type        | Quick Description / وصف سريع                  |
+|-----------------|-------------|------------------------------------------------|
+| **RSA**         | Asymmetric  | Uses public & private keys for secure comms.   |
+| **RC4**         | Symmetric   | Simple and fast stream cipher.                 |
+| **Caesar**      | Classical   | Shifts each character by a fixed number.       |
+| **Multiplicative** | Classical | Based on modular multiplication.              |
+| **Zigzag**      | Keyless     | Rearranges text in a rail fence pattern.       |
+
+---
+
+## 🖼️ Interfaces | واجهات التطبيق  
+
+### 🔹 Main GUI | الواجهة الرئيسية  
+![Main GUI](images/main_gui.png)
+
+### 🔹 RSA Interface | واجهة RSA  
+![RSA Interface](images/RSA_interface.png)
+
+### 🔹 RC4 Interface | واجهة RC4  
+![RC4 Interface](images/rc4_interface.png)
+
+### 🔹 Classical Algorithms | الخوارزميات الكلاسيكية  
+![Classical Algorithms](images/classic_algorithms.png)
+
+---
+
+## 📦 Installation & Usage | التثبيت والتشغيل
 
 ```bash
 git clone https://github.com/abdulkaree4m/project-python-encryption.git
